@@ -7,7 +7,11 @@ The master_update.bat script changes every repository in the current folder to t
 
 The master-update-with-merge script follows these steps:
 1- Save the current branch name in a variable
+
 2- Checkout to MASTER or MAIN
+
 3- Run a git pull on the repository
+
 4- Go back to the branch it was before the checkout
+
 5- Run a git merge with master or main
